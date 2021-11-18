@@ -1,4 +1,6 @@
-# Finance Movement Predictors
+# Finance Movement Predictor
+
+This project is used to try and predict price movements in a market. 
 
 # First Import Data
 Library yfinance used to download stocks data [yfinance](https://pypi.org/project/yfinance/)
