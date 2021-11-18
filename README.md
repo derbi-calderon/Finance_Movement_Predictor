@@ -7,7 +7,7 @@ TA-Lib wrapper to use Ta-lib [TA-Lib wrapper](https://github.com/mrjbq7/ta-lib)
 TA-Lib library [TA-Library](https://ta-lib.org/)
 
 Combination of following indicators was used on each stock data
->AD                  Chaikin A/D Line
+>AD                  Chaikin A/D Line<br />
 >ADOSC               Chaikin A/D Oscillator
 >ADX                 Average Directional Movement Index
 >ADXR                Average Directional Movement Index Rating
