@@ -148,5 +148,17 @@ Combination of following indicators was used on each stock data
 >WILLR               Williams' %R <br/>
 >WMA                 Weighted Moving Average<br/>
 
+
+
 Possible error to avoid: <br/>
 -Some values may be NAN, for example 30 Day Simple Moving Average,SMA, uses the data from the past 30 days. The first 30 days will not have any data to refer back to so they will be NAN, values for 30 day SMA data won't begin to appear until the 30ths row of data. This is imporant to note because you don't want NAN values going into the Neural Network. NAN values in a Neural network will give you errors and/or NAN values. In this scenerio, one solution would be to drop the first 30 rows of data. 
+<br/><br/>
+Importing and Adding Features:
+-In importandaddingfeatures.py the libraries above are added along with pandas and numpy.
+-Some indicators are commented out since they only produce NAN values.
+-After the data is imported and the features added, the first 90 values are removed to avoid error explained above.
+<br/>
+#The Prediction Process
+
+
+
