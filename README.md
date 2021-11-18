@@ -145,3 +145,6 @@ Combination of following indicators was used on each stock data
 >WCLPRICE            Weighted Close Price<br/>
 >WILLR               Williams' %R <br/>
 >WMA                 Weighted Moving Average<br/>
+
+Possible erros: 
+-Some values may be NAN, for example 30 Day Simple Moving Average,SMA, uses the data from the past 30 days. The first 30 days will not have any data to refer back to so they will be NAN, values for 30 day SMA data will begin to appear on the 30ths row of data till the last row. This is imporant to note because you don't want NAN values going into the Neural Network. NAN values in a Neural network will not give you errors and/or NAN values only. 
