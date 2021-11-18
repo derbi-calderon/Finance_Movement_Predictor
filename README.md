@@ -158,7 +158,8 @@ Importing and Adding Features:<br/>
 -Some indicators are commented out since they only produce NAN values.<br/>
 -After the data is imported and the features added, the first 90 values are removed to avoid error explained above.<br/>
 <br/>
-#The Prediction Process
+
+# The Prediction Process
 
 
 
